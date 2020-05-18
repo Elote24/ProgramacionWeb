@@ -1,0 +1,12 @@
+<div *ngIf="!loaded">
+  <h3 class="text-center text-white">Cargando la localizacion....</h3>
+</div>
+<div *ngIf="loaded">
+  <div class="row justify-content-center text-center font-italic Italica  p-0 m-0">
+    <div class="col-sm-12 col-md-12 col-lg-12  ">
+      <br>
+      <p>{{info&& info.city ? info.city : 'Cargando' }} ,
+        {{info&& info.country_name ? info.country_name : 'Cargando'}} , {{ObtenHora()}}
+      </p>
+    </div>
+  </div>

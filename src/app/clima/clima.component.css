@@ -1,0 +1,11 @@
+.c{
+    background-image: url("https://i.pinimg.com/originals/0a/f3/bc/0af3bca9a346a90010887620a8d9a153.jpg");
+    border:1px solid black; border-radius: 1em;
+    font-size: 20px;
+}
+.max{
+    color:red;
+}
+.min{
+    color: royalblue;
+}
